@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
           <div className="relative group">
             <div className="w-80 h-[450px] overflow-hidden bg-zinc-50 dark:bg-zinc-900/50 rounded-2xl">
                <img 
-                src="profile.png" 
+                src="/profile.png" 
                 alt="Sheena Cabatingan" 
                 className="w-full h-full object-contain object-bottom scale-110 group-hover:scale-105 transition-all duration-700 filter drop-shadow-2xl"
                 onError={(e) => {
